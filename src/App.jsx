@@ -1,10 +1,10 @@
-import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom'
-import Inicio from "./componentes/Inicio.jsx"
-import Info from "./componentes/Info.jsx"
-import Coleccion from "./componentes/Coleccion.jsx"
-import Favoritos from "./componentes/Favoritos.jsx"
-import Usuario from "./componentes/Usuario.jsx"
-import Pokemon from "./componentes/Pokemon.jsx"
+import { BrowserRouter as Router, Route, Routes, Navigate, Link } from 'react-router-dom';
+import Inicio from "./componentes/inicio";
+import Info from "./componentes/info";
+import Coleccion from "./componentes/coleccion";
+import Favoritos from "./componentes/favoritos";
+import Usuario from "./componentes/usuario";
+import Pokemon from "./componentes/pokemon";
 
 function App() {
   return (
@@ -29,4 +29,4 @@ function App() {
   )
 }
 
-export default App
+export default App;
